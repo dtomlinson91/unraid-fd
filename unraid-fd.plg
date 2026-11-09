@@ -3,10 +3,10 @@
   <!ENTITY name       "unraid-fd">
   <!ENTITY title      "fd">
   <!ENTITY author     "dtomlinson">
-  <!ENTITY version    "2026.11.01">
-  <!ENTITY upstream   "10.5.0">
-  <!ENTITY package    "unraid-fd-10.5.0-x86_64-2026.11.01">
-  <!ENTITY sha256     "9a2b3329f91b02e755a16a90bc89392fda46a58e706597e98b7ef5677e5cdc5f">
+  <!ENTITY version    "2026.11.09">
+  <!ENTITY upstream   "10.5.2">
+  <!ENTITY package    "unraid-fd-10.5.2-x86_64-2026.11.09">
+  <!ENTITY sha256     "ecd5130de03c6867ae7b5863d7b0cc723c9a826f8641a4f29745f79d7e58ccc1">
   <!ENTITY gitURL     "https://github.com/dtomlinson91/&name;">
   <!ENTITY pluginURL  "&gitURL;/raw/main/&name;.plg">
   <!ENTITY packageURL "&gitURL;/releases/download/&version;/&package;.txz">
@@ -15,6 +15,9 @@
 <PLUGIN name="&name;" author="&author;" version="&version;" pluginURL="&pluginURL;" support="&gitURL;" min="6.8.3">
 
 <CHANGES>
+### 2026.11.09
+- fd 10.5.2
+
 ### 2026.11.01
 - fd 10.5.0
 </CHANGES>
